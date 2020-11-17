@@ -1,0 +1,9 @@
+@import url(./__container/body__container.css);
+
+.body {
+  height: auto;
+  width: auto;
+  font-family: Inter;
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+}
