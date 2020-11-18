@@ -6,9 +6,10 @@
 .place {
   border: steelblue 2px solid;
   margin: 80px 0 0 0;
+  max-height: 700px;
+  min-height: 584px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
 }
 
 .place:first-of-type {
