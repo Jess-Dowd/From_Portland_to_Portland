@@ -1,0 +1,16 @@
+@import url(./__image/place__image.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__title/place__title.css);
+@import url(./__website/place__website.css);
+
+.place {
+  border: steelblue 2px solid;
+  margin: 80px 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.place:first-of-type {
+  margin: 0px;
+}
