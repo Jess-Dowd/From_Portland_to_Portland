@@ -6,7 +6,6 @@
 @import url(./__link/place__link.css);
 
 .place {
-  border: orange 2px solid;
   display: grid;
   margin: 80px 0;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));

@@ -9,7 +9,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  border: blue 2px solid;
 }
 
 @media screen and (max-width: 767px) {

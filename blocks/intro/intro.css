@@ -7,7 +7,6 @@
   width: 90%;
   max-Width: 984px;
   margin: 92px auto;
-  border: darkblue 2px solid;
 }
 
 @media screen and (max-width: 767px) {

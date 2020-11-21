@@ -8,7 +8,6 @@
   width: 690px;
   height: 72px;
   list-style: none;
-  border: darkblue 2px solid;
 }
 
 @media screen and (max-width: 767px) {
