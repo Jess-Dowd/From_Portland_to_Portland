@@ -7,7 +7,7 @@ This is a project about traveling across the US. It is a adaptive layout that re
 
 **project link**
 
-* [Link to the project on github](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
+* [Link to the project on github] https://jess-dowd.github.io/web_project_3/
 
 **techniques and technologies**
 
