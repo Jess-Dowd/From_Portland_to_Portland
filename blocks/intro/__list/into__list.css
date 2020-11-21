@@ -10,3 +10,10 @@
   list-style: none;
   border: darkblue 2px solid;
 }
+
+@media screen and (max-width: 767px) {
+  .intro__list {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

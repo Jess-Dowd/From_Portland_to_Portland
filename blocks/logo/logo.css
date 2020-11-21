@@ -4,3 +4,10 @@
   margin: 0 auto 0 0;
   border: blue 2px solid;
 }
+
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 156px;
+    height: 36px;
+  }
+}

@@ -4,7 +4,20 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  margin: 283px auto 0 auto;
-  z-index: 2;
-  
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  color: #FFFDFD;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    width: 288px;
+    top: 30%;
+  }
 }

@@ -5,6 +5,7 @@
   line-height: 34px;
   margin: 40px 0;
   border: darkblue 2px solid;
+  max-width: 690px;
 }
 
 .intro__text:last-of-type {
@@ -13,4 +14,16 @@
   font-size: 16px;
   line-height: 26px;
   margin: 32px 0
+}
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .intro__text:last-of-type {
+    font-size: 16px;
+    line-height: 163%;
+  }
 }

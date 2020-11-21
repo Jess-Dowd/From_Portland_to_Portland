@@ -1,8 +1,6 @@
-@import url(./_link/place__website_link.css);
-@import url(./_url-heading/place__website_url-heading.css);
+
 
 .place__website {
-  width: 456px;
-  height: 46px;
-  margin-top: 30px;
+  border: olive 2px solid;
+  margin-bottom: 48px;
 }
