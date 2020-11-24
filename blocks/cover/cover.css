@@ -2,6 +2,7 @@
 @import url(./__overlay/cover__overlay.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
+@import url(./__link/cover__link.css);
 
 
 .cover {
@@ -13,8 +14,8 @@
   max-width: 1205px;
   margin: 63px auto 0 auto;
   background-image: url(../../images/cover-route-66.jpg);
+  text-decoration: none;
+  
   }
 
-.cover:hover {
-  opacity: 0.8;
-}
+
