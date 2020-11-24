@@ -1,18 +1,13 @@
+@import url(./__container/body__container.css);
+
 .body {
   font-family: Inter;
   background-color: #2A2C2F;
   color: #FFFFFF;
-  width: 100%;
-}
-
-
-
-
-
-@media screen and (max-width: 767px) {
-  .body {
-    width: 320px;
-    margin: auto;
-  }
-  
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  min-width: 320px;
 }

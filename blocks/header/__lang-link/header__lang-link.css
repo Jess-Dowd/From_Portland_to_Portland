@@ -12,16 +12,19 @@
   font-family: Inter;
   text-align: center;
   width: 29px;
-  height: 28px;
 }
 
 .header__lang-link:last-of-type {
   margin-right: 0px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
   }
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }

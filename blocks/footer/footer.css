@@ -1,5 +1,6 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
+@import url(./__box/footer__box.css);
 
 .footer {
   width: 90%;
@@ -11,11 +12,11 @@
   align-items: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .footer {
+    display: flex;
     flex-direction: column;
-    margin: 64px auto 0 0;
+    margin: 48px auto 0 0;
     width: 168px;
     height: 198px;
-  }
 }
