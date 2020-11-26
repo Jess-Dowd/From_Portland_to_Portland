@@ -2,16 +2,17 @@
 @import url(./__image/lead__image.css);
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__title/lead__title.css);
+@import url(./__figure/lead__figure.css);
 
 .lead {
   margin: 58px auto 0;
-  max-width: 962px;
+  max-width: 984px;
   width: 90%;
+  border: red 2px solid;
 }
 
 @media screen and (max-width: 320px) {
   .lead {
     width: 320px;
-    height: 406px;
   }
 }

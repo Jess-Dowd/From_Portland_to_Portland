@@ -1,4 +1,3 @@
-@import url(./__background/cover__background.css);
 @import url(./__overlay/cover__overlay.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
@@ -15,7 +14,4 @@
   margin: 63px auto 0 auto;
   background-image: url(../../images/cover-route-66.jpg);
   text-decoration: none;
-  
-  }
-
-
+}
