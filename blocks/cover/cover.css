@@ -7,11 +7,31 @@
 .cover {
   background-size: cover;
   background-position: center;
-  width: 100%;
-  min-height: 200px;
-  max-height: 740px;
-  max-width: 1205px;
-  margin: 63px auto 0 auto;
+  height: 740px;
+  max-width: 1184px;
+  margin: 63px 48px 0 48px;
   background-image: url(../../images/cover-route-66.jpg);
   text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    margin: 0;
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    height: 480px;
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cover {
+    height: 200px;
+    margin-top: 65px;
+  }
 }

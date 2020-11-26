@@ -3,7 +3,6 @@
   max-width: 984px;
   max-height: 615px;
   margin: 64px auto 0 auto;
-  border: red 2px solid;
 }
 
 @media screen and (max-width: 320px) {

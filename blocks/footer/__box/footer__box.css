@@ -1,7 +1,9 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .footer__box {
     flex-direction: column;
     display: flex;
+    justify-content: space-between;
     margin-left: 0;
+    border: red 2px solid;
   }
 }

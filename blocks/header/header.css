@@ -3,8 +3,7 @@
 @import url(./__list-item/header__list-item.css);
 
 .header {
-  margin: 34px auto 0 auto;
-  width: 90%;
+  margin: 34px 148px 0 148px;
   max-width: 984px;
   max-height: 44px;
   display: flex;
@@ -13,10 +12,22 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
   .header {
-    width: 288px;
+    margin-right: 48px;
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 46px 24px 0 24px ;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header {
     height: 36px;
-    margin:20px 16px 0;
+    margin:20px 16px 0 16px;
   }
 }
