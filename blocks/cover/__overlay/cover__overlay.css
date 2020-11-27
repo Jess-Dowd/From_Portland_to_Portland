@@ -6,6 +6,10 @@
   transition-duration: 2s;
   transition-timing-function: ease;
   transition-delay: 0s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .cover__overlay:hover {
