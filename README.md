@@ -3,7 +3,7 @@
 
 **Intro**
 
-This is a project about traveling across the US. It is a adaptive layout that responds to different screen sizes.
+This is a HTML and CSS based project about traveling across the US. It has an adaptive design that responds to most common screen sizes. Developed with vsc and gitbash. Used BEM for clean code and Figma for website specifications.
 
 **project link**
 
